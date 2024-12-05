@@ -39,8 +39,8 @@ export default function PortfolioOutline() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/CV 2024-25.pdf';
-    link.download = 'CV 2024-25.pdf';
+    link.href = '/CV 2024-25 .pdf';
+    link.download = 'CV 2024-25 .pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -67,7 +67,7 @@ export default function PortfolioOutline() {
             <div className="relative w-full aspect-square max-w-md mx-auto overflow-hidden rounded-lg">
               {/* Base Image */}
               <img
-                src="/ariorad-moniri-headshot.jpg"
+                src="/94786057-19CB-4432-AB56-A53A4F7BEDF1.jpeg"
                 alt="Ariorad Moniri"
                 className="w-full h-full object-cover"
               />
